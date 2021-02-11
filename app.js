@@ -81,7 +81,7 @@ function sumArray(testArray) {
   sum = (2 + 3 + 4);
   return [sum, + 2 + ',' + 3 + ',' + 4 + ' was passed in as an array of numbers, and ' + 9 + ' is their sum.']
 }
-console.log(sum(2 + 3 + 4));
+console.log();
 testSumArray(testArray);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
@@ -96,13 +96,14 @@ IMPORTANT DETAIL: You may not use the arithmetic operator * in this function. To
 
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiplyArray() function and see if the test passes.*/
 
-// Write your code here
-function multiplyArray(multArr) {
-  //eslint-disable-line
+
+function multiplyArray(testArray) {
+  multiply = (2 * 3 * 4);
+  return [multiply, 'The numbers ' + 2 + ',' + 3 + ',' + 4 + ' have a product of ' + 24 + '.']
 }
 
-// Here is the test for multiplyArray(); uncomment it to run it
-// testMultiplyArray(testArray);
+console.log();
+testMultiplyArray(testArray);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop.
 
